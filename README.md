@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @kabirdkng
 - 👀 I’m interested in ... Blockchain technology
 - 🌱 I’m currently learning ... Javascript
-- 💞️ I’m looking to collaborate on ...
+- 💞️ I’m looking to collaborate on ... Blockchain Developemeent
 - 📫 How to reach me ... <a href="https://t.me/CryptoBoyKabir">Telegram</a>
                          <a href="https://twitter.com/kabir_crypto">Twitter</a>
 
