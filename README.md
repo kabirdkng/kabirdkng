@@ -5,7 +5,7 @@
 2. PACT - Human Readable Smart Contract Language.
 - 💞️ I’m looking to collaborate on ... Decentralised Application with simple and advanced UX.
 - 📫 How to reach me ... [Telegram](https://t.me/CryptoKabir)
-                         [Twitter](https://twitter.com/kabir_crypto)
+                         [X(Twitter)](https://x.com/kabir_crypto)
 
 <!---
 kabirdkng/kabirdkng is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
