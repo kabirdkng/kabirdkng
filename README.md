@@ -1,7 +1,9 @@
 - 👋 Hi, I’m @kabirdkng
 - 👀 I’m interested in ... Blockchain technology
-- 🌱 I’m currently learning ... Javascript
-- 💞️ I’m looking to collaborate on ... Blockchain Developemeent
+- 🌱 I’m currently learning ... 
+1.Javascript(open for learning anything comes in the way)
+2. PACT - Human Readable Smart Contract Language.
+- 💞️ I’m looking to collaborate on ... Decentralised Application with simple and advanced UX.
 - 📫 How to reach me ... [Telegram](https://t.me/CryptoKabir)
                          [Twitter](https://twitter.com/kabir_crypto)
 
