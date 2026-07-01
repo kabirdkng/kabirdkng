@@ -12,15 +12,15 @@
 
 ## 🚀 About Me
 
-Full-stack developer with expertise in **Web3**, **AI**, and **modern web technologies**. I build scalable applications that solve real-world problems, from decentralized platforms to AI-powered analytics tools. Passionate about creating seamless user experiences backed by robust, innovative technology.
+Full-stack developer with expertise in **Web3**, **AI**, and **modern web technologies**. I build scalable applications that solve real-world problems, from decentralized platforms to AI-powered analytics and compliance tools. Passionate about creating seamless user experiences backed by robust, innovative technology.
 
 ```javascript
 const kabir = {
     location: "Kolkata, India",
     timezone: "UTC+05:30",
     role: "Full-Stack Developer",
-    interests: ["Web Development", "Blockchain", "AI/ML", "System Design"],
-    building: ["Web Apps", "APIs", "Smart Contracts", "AI Tools"],
+    interests: ["Web Development", "Blockchain", "AI/ML", "System Design", "Compliance Tech"],
+    building: ["AI Fraud Tools", "Web Apps", "PWAs", "Smart Contracts", "Launchpads"],
     philosophy: "Clean code, great UX, powerful backend"
 };
 ```
@@ -37,10 +37,12 @@ const kabir = {
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 
 ### Backend & APIs
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 ### Databases
@@ -79,37 +81,34 @@ const kabir = {
 <tr>
 <td width="50%">
 
-### 🚀 Token Launchpad Platform
-**Full-Stack Web3 Application**
+### 🤖 Haralix — Hybrid AI Fraud Platform
+**AI-Powered AML / Compliance Intelligence**
 
-Comprehensive launchpad ecosystem with modern architecture for token launches and management.
+Next.js landing + full Python ML backend for fraud & SAR detection. Uses synthetic data generation, secure-enclave fine-tuning (MLX/LoRA), deterministic + agentic lanes, n8n orchestration, and FastAPI services.
 
-- 🎨 Modern UI with React & Next.js
-- 🔐 Secure smart contract integration
-- 📊 Real-time analytics dashboard
-- 🛠️ Admin panel with full CRUD operations
-- 📚 Complete API documentation
+- 🧠 Fine-tuned models that measurably beat base on edge cases
+- 🔒 Reproducible synthetic data pipeline for confidential domains
+- 🖥️ Analyst, admin, and customer consoles
+- 📈 Real-time case intake, review, and SAR drafting
 
-**Tech:** JavaScript, Next.js, Node.js, Smart Contracts
+**Tech:** Next.js 16, TypeScript, Python, FastAPI, MLX, Docker, n8n
 
+**Live:** [haralix.vercel.app](https://haralix.vercel.app)
 
 </td>
 <td width="50%">
 
-### 💱 Non-Custodial Ethereum Wallet
-**Secure Web3 Wallet Application**
+### 📋 Kompact (legal-advise)
+**Compliance & Legal-Ops PWA for Indian SMEs**
 
-Production-ready Ethereum wallet with enterprise-level security features.
+End-to-end workflows for Company Registration, GST, Trademark filing, reminders, document vault, and expert consultations.
 
-**Highlights:**
-- 🔐 AES-GCM encryption + PBKDF2
-- 🔑 Client-side key management
-- 🌐 Social recovery mechanism
-- 💾 Encrypted local storage
-- ⚡ Real-time transaction tracking
-- 📱 Multi-factor authentication
+- 👤 Founder, staff, admin, accountant roles
+- 💰 Razorpay-powered paid expert calls + webhooks
+- 🗂️ Full service catalog and order flows
+- 🛠️ Stable backend; active frontend iteration
 
-**Tech:** TypeScript, Next.js 16, Ethereum, Web3.js
+**Tech:** Next.js / TypeScript, PWA, Payments, Workflow automation
 
 </td>
 </tr>
@@ -117,34 +116,36 @@ Production-ready Ethereum wallet with enterprise-level security features.
 <tr>
 <td width="50%">
 
-### 🤖 AI-Powered Analytics
-**Machine Learning Integration**
+### 💼 Non-Custodial Ethereum Wallet
+**Secure Web3 Wallet Application**
 
-Building intelligent data analysis tools with AI:
+Production-grade self-custody wallet built with Next.js 16. Client-side key management, social recovery, real-time tx tracking.
 
-- 📈 Predictive analytics dashboards
-- 🧠 AI-powered insights
-- 📊 Data visualization tools
-- 🔍 Pattern recognition systems
-- 🤖 Discord bot with AI features
+**Highlights:**
+- 🔐 AES-GCM + PBKDF2 encryption (client only)
+- 🔑 Shamir's Secret Sharing (3-of-5) recovery
+- 📡 SSE real-time notifications + background worker
+- 🔑 PIN + OTP (email/SMS) auth
 
-**Tech:** Python, JavaScript, AI APIs, TensorFlow
+**Tech:** TypeScript, Next.js 16, viem, Prisma, Web Crypto
+
+**Live:** [kash-mauve.vercel.app](https://kash-mauve.vercel.app)
 
 </td>
 <td width="50%">
 
-### 🎮 Full-Stack Applications
-**Modern Web Development**
+### 🌐 chainweb-solutions
+**Modern Marketing Site + MDX Blog**
 
-Diverse portfolio of web applications:
+Fast, fully-managed Next.js marketing site and AI-focused blog platform with advanced search submission (IndexNow, Bing, etc).
 
-- 💼 E-commerce platforms
-- 🎯 Token management systems
-- 🗳️ Voting & governance tools
-- 🎲 Gaming backends & APIs
-- 📱 Real-time monitoring dashboards
+- 📝 MDX content + automated blog tooling
+- 🔎 Sitemap + multi-engine indexing automation
+- 🚀 Deployed on Vercel with custom domain support
 
-**Tech:** MERN Stack, PostgreSQL, Redis, REST APIs
+**Tech:** Next.js (App Router), TypeScript, MDX, Tailwind
+
+**Live:** [chainweb-solutions.vercel.app](https://chainweb-solutions.vercel.app)
 
 </td>
 </tr>
@@ -154,60 +155,64 @@ Diverse portfolio of web applications:
 
 ```javascript
 const currentProjects = {
-    webDevelopment: {
-        focus: "Scalable full-stack applications",
-        stack: ["Next.js", "Node.js", "PostgreSQL", "Redis"],
-        learning: "Advanced system design patterns"
+    aiFraudCompliance: {
+        focus: "Haralax/Haralix: Secure synthetic-data fine-tuning + hybrid agentic flows for AML & fraud",
+        stack: ["Python/MLX", "Next.js 16", "FastAPI", "n8n", "Docker"],
+        status: "Active development — synthetic data, eval, UI consoles"
+    },
+    complianceTools: {
+        focus: "Kompact — full compliance & legal PWA for SMEs (India)",
+        building: ["Workflows", "Payments", "Role-based consoles", "Document vault"],
+        tech: "TypeScript, Next.js, PWA patterns"
+    },
+    webPlatforms: {
+        focus: "High-quality marketing sites, blogs, and landing pages",
+        stack: ["Next.js 16", "TypeScript", "Tailwind", "Vanta/Three.js"],
+        examples: ["chainweb-solutions", "haralix-landing", "srk-mani"]
     },
     blockchain: {
-        building: "DeFi platforms & wallet solutions",
-        exploring: "Smart contract security & optimization",
-        chains: ["Ethereum", "Kadena"]
-    },
-    ai: {
-        integrating: "AI APIs for enhanced UX",
-        projects: ["Analytics tools", "Chatbots", "Prediction models"],
-        technologies: ["OpenAI", "TensorFlow", "ML algorithms"]
+        building: "Token launchpads and traceability platforms",
+        chains: ["Kadena (kadpad-new)", "IoT + on-chain (agritech-IoT)"],
+        past: "Ethereum wallets, Pact smart contracts"
     }
 };
 ```
 
-## 🌱 Currently Learning
+## 🌱 Currently Learning / Exploring
 
-- 🎯 **Advanced TypeScript** - Type safety & design patterns
-- 🏗️ **System Architecture** - Scalable backend design & microservices
-- 🤖 **AI/ML Integration** - Building intelligent features with AI
-- ⚡ **Performance Optimization** - Speed & efficiency in web apps
-- 🔐 **Security Best Practices** - Smart contracts & API security
-- 📊 **Data Engineering** - Working with large datasets efficiently
+- 🎯 **AI Engineering at scale** — Synthetic data, LoRA/PEFT fine-tuning, eval harnesses, secure enclaves
+- 🏗️ **Production Next.js patterns** — App router, server components, MDX, automated SEO/IndexNow
+- 💳 **Payments & compliance flows** — Razorpay integration, role-based access, audit trails
+- ⚡ **Performance & DX** — Fast local dev with Docker/Just/Make, testing gates
+- 🔐 **Security** — Client-side crypto, social recovery, enclave models
 
 ## 💡 Areas of Interest
 
 ```typescript
 interface Expertise {
+    ai: [
+        "Secure / Enclave ML & fine-tuning",
+        "Synthetic data generation for regulated domains",
+        "Hybrid deterministic + LLM/agent pipelines",
+        "Fraud, AML, SAR automation"
+    ];
     development: [
-        "Full-Stack Web Development",
-        "RESTful API Design",
-        "Database Architecture",
-        "Frontend Engineering"
+        "Full-Stack Web Development (Next.js 16 + TS)",
+        "PWAs & role-based enterprise UIs",
+        "RESTful + realtime APIs",
+        "Content platforms (MDX blogs)"
     ];
     blockchain: [
-        "Smart Contract Development",
-        "DApp Architecture",
-        "Web3 Integration",
-        "Token Economics"
-    ];
-    ai: [
-        "AI API Integration",
-        "Data Analytics",
-        "Machine Learning Models",
-        "Intelligent Automation"
+        "Smart Contract Development (Solidity, Pact)",
+        "DApp Architecture & Launchpads",
+        "IoT + Blockchain traceability",
+        "Web3 wallets & recovery"
     ];
     tools: [
-        "Modern JavaScript/TypeScript",
-        "React Ecosystem",
-        "Node.js Backend",
-        "Database Management"
+        "TypeScript / Modern JS ecosystems",
+        "Python data & ML tooling",
+        "Docker, orchestration, CI-friendly dev",
+        "Payments, auth, and workflow systems"
     ];
 }
 ```
@@ -216,12 +221,11 @@ interface Expertise {
 
 I'm actively looking for exciting projects in:
 
-- 🌐 **Full-Stack Web Apps** - Modern, scalable applications
-- 🔗 **Web3 Projects** - DeFi, DAOs, NFT platforms
-- 🤖 **AI-Powered Tools** - Intelligent automation & analytics
-- 📊 **Data Visualization** - Interactive dashboards & reports
-- 🛠️ **Developer Tools** - APIs, SDKs, and utilities
-- 💡 **Open Source** - Contributing to impactful projects
+- 🌐 **Full-Stack Web & PWA Apps** - Polished, production apps and tools
+- 🤖 **AI for Regulated Industries** - Fraud, compliance, analytics with real constraints
+- 🔗 **Web3 & Launch Infrastructure** - DeFi, token platforms, on-chain data
+- 🛠️ **Developer Experience & Content Tools** - Blogs, docs, automation
+- 💡 **Open Source & Experiments** - Meaningful contributions and R&D
 
 ## 📫 Let's Connect!
 
@@ -231,7 +235,7 @@ I'm actively looking for exciting projects in:
 [![Telegram](https://img.shields.io/badge/@CryptoKabir-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/CryptoKabir)
 [![GitHub](https://img.shields.io/badge/@kabirdkng-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kabirdkng)
 
-**💬 Open to discussing tech, development, blockchain, and AI!**
+**💬 Open to discussing tech, development, blockchain, AI, and compliance tooling!**
 
 </div>
 
@@ -243,7 +247,7 @@ I'm actively looking for exciting projects in:
 
 ![Profile Views](https://komarev.com/ghpvc/?username=kabirdkng&style=for-the-badge&color=7aa2f7)
 ![Stars](https://img.shields.io/github/stars/kabirdkng?style=for-the-badge&logo=github&labelColor=1a1b27&color=7aa2f7)
-![Repos](https://img.shields.io/badge/Repositories-42-7aa2f7?style=for-the-badge&logo=github&labelColor=1a1b27)
+![Repos](https://img.shields.io/badge/Repositories-57-7aa2f7?style=for-the-badge&logo=github&labelColor=1a1b27)
 
 ⭐️ From [kabirdkng](https://github.com/kabirdkng) | Passionate about technology & innovation 💜
 
