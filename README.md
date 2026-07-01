@@ -81,34 +81,30 @@ const kabir = {
 <tr>
 <td width="50%">
 
-### 🤖 Haralix — Hybrid AI Fraud Platform
-**AI-Powered AML / Compliance Intelligence**
+### 🤖 AI-Powered Fraud & Compliance Platform
 
-Next.js landing + full Python ML backend for fraud & SAR detection. Uses synthetic data generation, secure-enclave fine-tuning (MLX/LoRA), deterministic + agentic lanes, n8n orchestration, and FastAPI services.
+A hybrid system that combines rule-based processing with AI models to handle fraud detection and regulatory reporting in sensitive domains.
 
-- 🧠 Fine-tuned models that measurably beat base on edge cases
-- 🔒 Reproducible synthetic data pipeline for confidential domains
-- 🖥️ Analyst, admin, and customer consoles
-- 📈 Real-time case intake, review, and SAR drafting
+- Uses synthetic data generation to train models where real data cannot be used
+- Applies secure fine-tuning techniques so specialized models outperform general ones on complex cases
+- Supports full case lifecycle including intake, human review, and draft report generation
+- Role-specific web interfaces for different operational users
 
-**Tech:** Next.js 16, TypeScript, Python, FastAPI, MLX, Docker, n8n
-
-**Live:** [haralix.vercel.app](https://haralix.vercel.app)
+**Technologies:** Next.js 16, TypeScript, Python, FastAPI, MLX/LoRA fine-tuning, Docker, n8n
 
 </td>
 <td width="50%">
 
-### 📋 Kompact (legal-advise)
-**Compliance & Legal-Ops PWA for Indian SMEs**
+### 📋 Compliance & Legal Operations PWA
 
-End-to-end workflows for Company Registration, GST, Trademark filing, reminders, document vault, and expert consultations.
+A progressive web application that manages end-to-end regulatory and legal service workflows for businesses.
 
-- 👤 Founder, staff, admin, accountant roles
-- 💰 Razorpay-powered paid expert calls + webhooks
-- 🗂️ Full service catalog and order flows
-- 🛠️ Stable backend; active frontend iteration
+- Covers processes such as company formation, tax compliance filings, and intellectual property registrations
+- Implements distinct experiences for business owners, team members, accountants, and administrators
+- Includes paid expert consultation booking with payment processing and verification
+- Provides document storage, status tracking, and reminder systems
 
-**Tech:** Next.js / TypeScript, PWA, Payments, Workflow automation
+**Technologies:** Next.js, TypeScript, Progressive Web App features, Payment integrations, Backend workflow automation
 
 </td>
 </tr>
@@ -116,36 +112,30 @@ End-to-end workflows for Company Registration, GST, Trademark filing, reminders,
 <tr>
 <td width="50%">
 
-### 💼 Non-Custodial Ethereum Wallet
-**Secure Web3 Wallet Application**
+### 💼 Self-Custodial Cryptocurrency Wallet
 
-Production-grade self-custody wallet built with Next.js 16. Client-side key management, social recovery, real-time tx tracking.
+A browser-based wallet that keeps full control of keys with the user while providing modern usability and recovery options.
 
-**Highlights:**
-- 🔐 AES-GCM + PBKDF2 encryption (client only)
-- 🔑 Shamir's Secret Sharing (3-of-5) recovery
-- 📡 SSE real-time notifications + background worker
-- 🔑 PIN + OTP (email/SMS) auth
+- Private keys are generated and encrypted entirely on the client
+- Implements threshold-based social recovery
+- Maintains live transaction visibility using background services and real-time updates
+- Combines PIN authentication with one-time passcodes delivered via email or SMS
 
-**Tech:** TypeScript, Next.js 16, viem, Prisma, Web Crypto
-
-**Live:** [kash-mauve.vercel.app](https://kash-mauve.vercel.app)
+**Technologies:** TypeScript, Next.js 16, Web Crypto APIs, viem, Prisma, Server-Sent Events
 
 </td>
 <td width="50%">
 
-### 🌐 chainweb-solutions
-**Modern Marketing Site + MDX Blog**
+### 🌐 Content-Driven Marketing Site and Blog
 
-Fast, fully-managed Next.js marketing site and AI-focused blog platform with advanced search submission (IndexNow, Bing, etc).
+A fast, maintainable website and blog platform focused on technical content with strong search engine visibility features.
 
-- 📝 MDX content + automated blog tooling
-- 🔎 Sitemap + multi-engine indexing automation
-- 🚀 Deployed on Vercel with custom domain support
+- Content is authored in MDX with automated metadata handling
+- Includes tooling to quickly create and publish new articles
+- Automatically manages sitemaps and submits updates for indexing
+- Built with a clean, responsive user interface and modern frontend stack
 
-**Tech:** Next.js (App Router), TypeScript, MDX, Tailwind
-
-**Live:** [chainweb-solutions.vercel.app](https://chainweb-solutions.vercel.app)
+**Technologies:** Next.js (App Router), TypeScript, MDX, Tailwind CSS
 
 </td>
 </tr>
@@ -155,25 +145,25 @@ Fast, fully-managed Next.js marketing site and AI-focused blog platform with adv
 
 ```javascript
 const currentProjects = {
-    aiFraudCompliance: {
-        focus: "Haralax/Haralix: Secure synthetic-data fine-tuning + hybrid agentic flows for AML & fraud",
-        stack: ["Python/MLX", "Next.js 16", "FastAPI", "n8n", "Docker"],
-        status: "Active development — synthetic data, eval, UI consoles"
+    aiCompliance: {
+        focus: "Secure synthetic data pipelines and fine-tuned models for automated fraud detection and compliance reporting",
+        stack: ["Python/MLX", "Next.js", "FastAPI", "Docker", "Workflow orchestration"],
+        status: "Active development with evaluation harnesses and multi-user interfaces"
     },
-    complianceTools: {
-        focus: "Kompact — full compliance & legal PWA for SMEs (India)",
-        building: ["Workflows", "Payments", "Role-based consoles", "Document vault"],
-        tech: "TypeScript, Next.js, PWA patterns"
+    complianceWorkflows: {
+        focus: "Multi-role web platform handling regulatory filings, document management, and expert services",
+        building: ["Role-based interfaces", "Payments and booking flows", "Audit-friendly processes"],
+        tech: "TypeScript, Next.js, PWA architecture"
     },
     webPlatforms: {
-        focus: "High-quality marketing sites, blogs, and landing pages",
-        stack: ["Next.js 16", "TypeScript", "Tailwind", "Vanta/Three.js"],
-        examples: ["chainweb-solutions", "haralix-landing", "srk-mani"]
+        focus: "High-performance marketing websites and content platforms",
+        stack: ["Next.js 16", "TypeScript", "Tailwind CSS"],
+        capabilities: ["MDX authoring", "Automated SEO/IndexNow", "Interactive components"]
     },
-    blockchain: {
-        building: "Token launchpads and traceability platforms",
-        chains: ["Kadena (kadpad-new)", "IoT + on-chain (agritech-IoT)"],
-        past: "Ethereum wallets, Pact smart contracts"
+    blockchainWork: {
+        focus: "Infrastructure for token distribution and on-chain data anchoring",
+        building: ["Launchpad systems", "IoT telemetry to blockchain pipelines"],
+        tech: ["Smart contracts", "Indexers", "Web3 frontends"]
     }
 };
 ```
